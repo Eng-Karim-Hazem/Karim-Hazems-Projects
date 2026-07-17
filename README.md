@@ -1,4 +1,4 @@
-# Engineering & Software Development Portfolio Collection
+# Engineering & Software Development Portfolio
 
 Welcome to the central repository for my core software engineering, cryptography, embedded hardware, and smart campus automation projects. This repository serves as a unified portfolio showcasing a progression of solutions across desktop application frameworks, applied cryptographic tools, real-time embedded systems, and enterprise institutional automation layers.
 
