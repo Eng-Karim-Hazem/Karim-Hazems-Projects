@@ -54,7 +54,7 @@ Make sure you have installed:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/DataVisFX.git
+git clone https://github.com/Eng-Karim-Hazem/DataVisFX.git
 cd DataVisFX
 ```
 
@@ -140,8 +140,7 @@ screenshots/
 
 **Karim Hazem**
 
-- GitHub: https://github.com/yourusername
-- LinkedIn: https://linkedin.com/in/yourprofile
+- GitHub: https://github.com/Eng-Karim-Hazem
 
 ---
 

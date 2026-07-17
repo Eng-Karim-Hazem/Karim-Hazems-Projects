@@ -25,27 +25,6 @@ An edge-computing hardware and firmware subsystem deployed directly at campus bo
 
 The IoT layer relies on a decoupled, multi-tier processing model where image capture, edge verification, and electro-mechanical control are separated into specialized layers to prevent terminal lockouts and mitigate peripheral strain[cite: 4].
 
-+-------------------------------------------------------------+
-|                       UniNexus IoT Layer                    |
-+-------------------------------------------------------------+
-|                                                             |
-|   +-------------------+             +-------------------+   |
-|   |   Pi Camera v2    |             |  Tamper Switch    |   |
-|   +---------+---------+             +---------+---------+   |
-|             |                                 |             |
-|      (Image Capture)                   (Physical Security)  |
-|             v                                 v             |
-|   +---------+---------+   Heartbeat     +-----+-------------+   |
-|   |  Raspberry Pi 4   |<--------------->|      ESP32        |   |
-|   |  (Master Node)    |                 | (Auxiliary Node)  |   |
-|   +---------+---------+                 +-----+-------------+   |
-|             |                                 |             |
-|      (Cloud Sync)                      (Local Control)      |
-|             v                                 v             |
-|   +---------+---------+                 +-----+-------------+   |
-|   |  Cloud Firestore  |                 | Relay & LED Ring  |   |
-|   +-------------------+                 +-------------------+   |
-+-------------------------------------------------------------+
 
 ### Component Breakdown
 * **Raspberry Pi 4 Model B (Master Node)**: Acts as the high-throughput master gateway controller[cite: 4]. It executes edge decryption, runs cryptographic signature validations on captured QR tokens, and handles direct data synchronization with **Cloud Firestore**[cite: 4].

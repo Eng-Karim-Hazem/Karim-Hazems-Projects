@@ -1,19 +1,20 @@
 # Engineering & Software Development Portfolio Collection
 
-Welcome to the central repository for my core software engineering, cryptography, and embedded hardware projects. This repository serves as a unified portfolio showcasing solutions across desktop application frameworks, data visualization systems, secure cryptographic tools, and smart institutional automation layers.
+Welcome to the central repository for my core software engineering, cryptography, embedded hardware, and smart campus automation projects. This repository serves as a unified portfolio showcasing a progression of solutions across desktop application frameworks, applied cryptographic tools, real-time embedded systems, and enterprise institutional automation layers.
 
 ---
 
 ## 📂 Repository Structure & Project Index
 
-This workspace organizes distinct engineering sub-projects by functional domain. Each directory contains its own localized code environment and configuration rules:
+This workspace organizes distinct engineering sub-projects by functional domain. Each directory contains its own localized code environment, assets, and configuration rules:
 
 | Project Directory | Primary Tech Stack | System Class & Description |
 | :--- | :--- | :--- |
-| **[`Datavisualization/`](./Datavisualization)** | Java 21, JavaFX, Maven, JFreeChart | **DataVisFX**: A modern desktop data visualization suite featuring dynamic chart creation engine and responsive interactive dashboards. |
+| **[`Datavisualization/`](./Datavisualization)** | Java 21, JavaFX, Maven, JFreeChart | **DataVisFX**: An interactive desktop data visualization suite featuring a dynamic chart rendering engine and responsive dashboards. |
 | **[`Keyrpt/`](./Keyrpt)** | Python 3.x, Kivy Framework | **KEYrpt**: A graphical mobile/desktop cryptographic application implementing text encryption, decryption, and frequency analysis algorithms. |
 | **[`Robot_Car/`](./Robot_Car)** | Embedded C/C++, Microcontroller Firmware | **Robotics Control Layer**: An embedded systems automation package managing motor driving matrices, servo control tracking, and structural peripheral loops. |
 | **[`UniNexus_1.0/`](./UniNexus_1.0)** | Java, PHP, Raspberry Pi, Hardware APIs | **UniNexus Core**: The foundational edge-computing ecosystem combining administrative relational backends with specialized hardware integration frameworks for campus automation. |
+| **[`UniNexus_2.0/`](./UniNexus_2.0)** | Flutter, Dart, Firebase (Firestore, Auth) | **UniNexus Mobile Ecosystem**: A modern architectural evolution migrating core campus services to a scalable, serverless cross-platform app infrastructure featuring dynamic QR token access controls. |
 
 ---
 
@@ -39,17 +40,23 @@ The baseline server architecture and hardware interface underpinning a comprehen
 * **System Design**: Integrates high-performance Java runtime structures and transactional PHP routing frameworks to bridge user administrative dashboards with active edge hardware.
 * **Hardware Integration**: Communicates via local micro-processing units to control border access points and handle structural data exchanges across distributed localized endpoints.
 
+### 📱 UniNexus 2.0 (`UniNexus_2.0/`)
+A major architectural overhaul that modernizes the institutional platform by transitioning from legacy monolithic web architectures into a cloud-native, mobile-first ecosystem.
+* **Cross-Platform Mobile Suite**: Built using Flutter and Dart to provide an optimized, native experience across iOS and Android client devices.
+* **Serverless Backend Integration**: Migrates application services to Firebase, utilizing Firebase Authentication for identity verification, Cloud Firestore for serverless data streaming, and Cloud Messaging for live administrative push updates.
+* **Dynamic Access Pipeline**: Generates real-time, cryptographically signed QR access tokens locally within the app, ready to interface seamlessly with decoupled edge-computing gate hardware layers[cite: 4].
+
 ---
 
 ## 🚀 General Execution & Contribution Entry
 
-Because this repository contains decoupled multi-language projects (Java, Python, C++), do not run structural compilation scripts at this root level. To deploy or review a specific system:
+Because this repository contains decoupled, multi-language projects (Java, Python, Flutter, C++), do not run structural compilation scripts at this root level. To deploy or review a specific system:
 
 1. **Navigate to the target directory**:
    ```bash
    cd Directory_Name
 
-   Review the local README.md profile: Follow the isolated build requirements, dependency setups (e.g., Maven scripts[cite: 6] or Python pip environments[cite: 5]), and specific hardware wiring maps located inside the chosen folder.
+   Review the local environment profile: Follow the isolated build requirements, dependency setups (e.g., Maven scripts[cite: 6], Flutter pubspec setups, or Python pip environments[cite: 5]), and specific hardware wiring maps located inside the chosen folder.
 
 👨‍💻 Author
 Karim Hazem
